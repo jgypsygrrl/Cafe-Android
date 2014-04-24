@@ -1,0 +1,350 @@
+/*
+* jQuery Mobile
+* http://jquerymobile.com
+*
+* Copyright 2010, 2013 jQuery Foundation, Inc. and other contributors
+* Released under the MIT license.
+* http://jquery.org/license
+*
+*/
+
+
+/* Custom CSS for MSM Real Estate Theme w/ Logo Graphic (Custom Colors Chosen Through Software) */
+
+.ui-body-c {
+	background: url('../images/bg-noise.png') 0 0 #F7EBDC; /* Background color and semi-transparent background image */
+}
+
+.ui-content {
+	max-width: 480px; 
+	margin: 0 auto;
+}
+
+div#home h1.logoimg {
+	min-height: 60px;
+	height: auto;
+	margin: 5px auto;
+}
+
+div.border-bottom {
+	border-bottom: 4px solid #76462E; /* Color/size of border line under Header content */
+}
+
+#dialog-border-bottom {
+	border-bottom: 4px solid #76462E; /* Color/size of border line under Header content */
+}
+
+div.border-top {
+	border-top: 4px solid #76462E; /* Color/size of border line above Footer content */
+}
+
+div.innerpage {
+	background: #f5f5f5; /* Background color of pages (other than Homepage) */
+	text-align: left;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* Styles the image on the Property Description page */
+img.property {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	border-radius: .6em;
+	-webkit-box-shadow: 0 0 6px rgba(0,0,0,.6);
+	   -moz-box-shadow: 0 0 6px rgba(0,0,0,.6);
+	        box-shadow: 0 0 6px rgba(0,0,0,.6);
+}
+
+/* Styles the image on the Homepage */
+img.featured {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	border-radius: .6em;
+	-webkit-box-shadow: 0 0 6px rgba(0,0,0,.6);
+	   -moz-box-shadow: 0 0 6px rgba(0,0,0,.6);
+	        box-shadow: 0 0 6px rgba(0,0,0,.6);
+}
+
+/* Used to center images/items */
+div#centerthis {
+	margin: 1em auto 0;
+	text-align: center;
+}
+
+/* Styles the Footer on the Homepage */
+div#home-footer {
+	border: 1px solid 		#333 /*{a-bar-border}*/;
+	border-top: 4px solid   #76462E;
+	background: 			#513020 /*{a-bar-background-color}*/;
+	color: 					#fff /*{a-bar-color}*/;
+	font-weight: bold;
+	text-shadow: 0 /*{a-bar-shadow-x}*/ -1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #000 /*{a-bar-shadow-color}*/;
+}
+
+
+/* All "social" styles used to create the Social Share icons */
+ul.social {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.social li {
+	display: inline;
+	padding: 0 .6em;
+	width: 480px;
+	margin: 0 auto;
+}
+
+div.socialicons {
+	margin: 0 auto;
+	text-align: center;
+}
+
+div.socialicons img {
+	padding: 10px;
+}
+
+
+/* All "property-info" styles used to control the text underneath the main image, slider or video */
+div#property-info {
+	margin: 0 auto;
+	text-align: center;
+}
+
+div#property-info h3, div#property-info p {
+	text-align: center;
+	text-shadow: 1px 1px 2px #111;
+	color: #fff;
+	font-size: 1.4em;
+}
+
+div#property-info p {
+	margin-top: 0;
+}
+
+div#property-info h3 {
+	margin-bottom: .3em;
+}
+
+div#home-footer h4 {
+	color: #fff; /* Controls the color of the text in the Homepage footer */
+}
+
+div#page-footer h4 {
+	color: #fff; /* Controls the color of the text in the footer (other than the Homepage) */
+}
+
+ul.details-list {
+	margin-left: 1em; /* Adds some margin-left to bulleted items on Property Description page */
+}
+
+div.text-page h1, div.text-page h2, div.text-page h3 {
+	margin-top: 0; /* Removes margin-top from Terms and Privacy pages */
+}
+
+/* Styles the video and positions it */
+.video {
+	width: 95%;
+	margin: 0px auto;
+	border: 4px solid #76462E;
+	-webkit-box-shadow: 0 0 8px #222;
+	   -moz-box-shadow: 0 0 8px #222;
+			box-shadow: 0 0 8px #222;
+}
+
+/* Styles the border color around the slider images */
+.flexslider {
+	border: 4px solid #76462E;
+}
+
+/********************************************************************
+ Override colors from default jquery mobile stylesheet (Swatches "A")
+*********************************************************************/
+
+
+/* Controls the Gradient Background of the Header Area */
+.ui-bar-a {
+	border: 1px solid 		#333 /*{a-bar-border}*/;
+	background: 			#885036 /*{a-bar-background-color}*/;
+	color: 					#fff /*{a-bar-color}*/;
+	font-weight: bold;
+	text-shadow: 0 /*{a-bar-shadow-x}*/ -1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #000 /*{a-bar-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #885036 /*{a-bar-background-start}*/), to( #513020 /*{a-bar-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/);
+}
+
+/* Controls the Gradient Background of the Footer Area */
+.ui-btn-up-a {
+	border: 1px solid 		#111 /*{a-bup-border}*/;
+	background: 			#885036 /*{a-bup-background-color}*/;
+	font-weight: bold;
+	color: 					#fff /*{a-bup-color}*/;
+	text-shadow: 0 /*{a-bup-shadow-x}*/ 1px /*{a-bup-shadow-y}*/ 0 /*{a-bup-shadow-radius}*/ #111 /*{a-bup-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #885036 /*{a-bar-background-start}*/), to( #513020 /*{a-bar-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/);
+}
+
+/* Controls the Color of the Hover State in Footer Area and the "Back" button in Header */
+.ui-btn-hover-a {
+	border: 1px solid 		#000 /*{a-bhover-border}*/;
+	background: 			#513020 /*{a-bhover-background-color}*/;
+	font-weight: bold;
+	color: 					#fff /*{a-bhover-color}*/;
+	text-shadow: 0 /*{a-bhover-shadow-x}*/ 1px /*{a-bhover-shadow-y}*/ 0 /*{a-bhover-shadow-radius}*/ #111 /*{a-bhover-shadow-color}*/;
+}
+
+.ui-btn-down-c {
+	border: 1px solid 		#000 /*{a-bdown-border}*/;
+	background: 			#513020 /*{a-bdown-background-color}*/;
+	font-weight: bold;
+	color: 					#fff /*{a-bdown-color}*/;
+	text-shadow: 0 /*{a-bdown-shadow-x}*/ 1px /*{a-bdown-shadow-y}*/ 1px /*{a-bdown-shadow-radius}*/ #111 /*{a-bdown-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #885036 /*{a-bar-background-start}*/), to( #513020 /*{a-bar-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/);
+}
+
+.ui-btn-active {
+	border: 1px solid 		#2373a5 /*{global-active-border}*/;
+	background: 			#513020 /*{global-active-background-color}*/;
+	font-weight: bold;
+	color: 					#fff /*{global-active-color}*/;
+	cursor: pointer;
+	text-shadow: 0 /*{global-active-shadow-x}*/ 1px /*{global-active-shadow-y}*/ 1px /*{global-active-shadow-radius}*/ #111 /*{global-active-shadow-color}*/;
+	text-decoration: none;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #885036 /*{global-active-background-start}*/), to( #513020 /*{global-active-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #885036 /*{global-active-background-start}*/, #513020 /*{global-active-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #885036 /*{global-active-background-start}*/, #513020 /*{global-active-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #885036 /*{global-active-background-start}*/, #513020 /*{global-active-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #885036 /*{global-active-background-start}*/, #513020 /*{global-active-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #885036 /*{global-active-background-start}*/, #513020 /*{global-active-background-end}*/);
+}
+
+.ui-focus,
+.ui-btn:focus {
+	-moz-box-shadow: inset 0px 0px 3px 		#513020 /*{global-active-background-color}*/, 0px 0px 9px #513020 /*{global-active-background-color}*/;
+	-webkit-box-shadow: inset 0px 0px 3px 	#513020 /*{global-active-background-color}*/, 0px 0px 9px #513020 /*{global-active-background-color}*/;
+	box-shadow: inset 0px 0px 3px 			#513020 /*{global-active-background-color}*/, 0px 0px 9px #513020 /*{global-active-background-color}*/;
+}
+.ui-input-text.ui-focus,
+.ui-input-search.ui-focus {
+	-moz-box-shadow: 0px 0px 12px 			#513020 /*{global-active-background-color}*/;
+	-webkit-box-shadow: 0px 0px 12px 		#513020 /*{global-active-background-color}*/;
+	box-shadow: 0px 0px 12px 				#513020 /*{global-active-background-color}*/;	
+}
+
+
+/*******************************************************************
+Override colors from default jquery mobile stylesheet (Swatches "B")
+*******************************************************************/
+
+/* Controls the Gradient Background of the List Divider (Main Menu) */
+.ui-bar-b {
+	border: 1px solid 		#333 /*{a-bar-border}*/;
+	background: 			#885036 /*{a-bar-background-color}*/;
+	color: 					#fff /*{a-bar-color}*/;
+	font-weight: bold;
+	text-shadow: 0 /*{a-bar-shadow-x}*/ -1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #000 /*{a-bar-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #885036 /*{a-bar-background-start}*/), to( #513020 /*{a-bar-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/);
+}
+
+/* Controls the Gradient Background of the Controlgroup (Call/Email/Text buttons) */
+.ui-btn-up-b {
+	border: 1px solid 		#111 /*{a-bup-border}*/;
+	background: 			#885036 /*{a-bup-background-color}*/;
+	font-weight: bold;
+	color: 					#fff /*{a-bup-color}*/;
+	text-shadow: 0 /*{a-bup-shadow-x}*/ 1px /*{a-bup-shadow-y}*/ 0 /*{a-bup-shadow-radius}*/ #111 /*{a-bup-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #885036 /*{a-bar-background-start}*/), to( #513020 /*{a-bar-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #885036 /*{a-bar-background-start}*/, #513020 /*{a-bar-background-end}*/);
+}
+
+/* Controls the Background of the Hover State (Call/Email/Text buttons) */
+.ui-btn-hover-b {
+	border: 1px solid 		#000 /*{a-bhover-border}*/;
+	background: 			#513020 /*{a-bhover-background-color}*/;
+	font-weight: bold;
+	color: 					#fff /*{a-bhover-color}*/;
+	text-shadow: 0 /*{a-bhover-shadow-x}*/ 1px /*{a-bhover-shadow-y}*/ 0 /*{a-bhover-shadow-radius}*/ #111 /*{a-bhover-shadow-color}*/;
+}
+
+
+
+/*****************************************************************
+Media Query Adjustments
+******************************************************************/
+
+@media screen and (max-width:480px) {
+
+	div#property-info h3, div#property-info p {
+		text-align: center;
+		text-shadow: 1px 1px 2px #111;
+		color: #fff;
+		font-size: 1.2em;
+	}
+
+	.ui-controlgroup-horizontal .ui-btn-inner { 
+		height: 22px; 
+		line-height: 22px; 
+	}
+
+	.ui-btn-inner { 
+		font-size: 17px; 
+		padding: .6em 17px .6em; 
+	}
+
+	div.socialicons img {
+		padding: 7px;
+	}
+
+}
+
+@media screen and (max-width:320px) {
+
+	div#property-info h3, div#property-info p {
+		text-align: center;
+		text-shadow: 1px 1px 2px #111;
+		color: #fff;
+		font-size: 1.1em;
+	}
+
+	.ui-controlgroup-horizontal .ui-btn-inner { 
+		height: 20px; 
+		line-height: 20px; 
+	}
+
+	.ui-btn-inner { 
+		font-size: 14px; 
+		padding: .6em 14px .6em; 
+	}
+
+	div.socialicons img {
+		padding: 5px;
+	}
+
+}

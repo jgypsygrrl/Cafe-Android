@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+  <title>Coffee Shop | 1234 Espresso Lane,&nbsp;New York, NY  10014</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/jquery.mobile-1.3.1.min.css" /><!-- Hosted on CDN -->
+  <link rel="stylesheet" href="css/msmre-custom.css" />
+  <link rel="stylesheet" href="css/flexslider.css" />
+
+	<!-- Could not whitelist to jQuery Mobile -->
+  <!-- Links to jQuery Core (Hosted on MediaTemple CDN) -->
+ 
+  <!--<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> -->
+  <!--<script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script> -->
+  <!--<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>-->
+
+  <!-- Added to local -->
+
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/jquery-migrate-1.1.1.min.js"></script>
+  <!-- Link to jQuery Mobile (Hosted on MediaTemple CDN) -->
+  <script src="js/jquery.mobile-1.3.1.min.js"></script>
+  <!-- Link to jQuery for Flex Slider (Hosted locally) -->
+  <script src="js/jquery.flexslider.js"></script>
+
+  <!-- Script required for Flex Slider -->
+  <script type="text/javascript">
+
+	$(window).load(function() {
+	$('.flexslider').flexslider({
+    animation: "fade"
+		});
+	});
+  
+  </script>
+
+ </head>
+
+ <body class="custom">
+ <div data-role="page" id="home">
+	
+	<!-- Header Content (Homepage) -->
+	<div data-role="header" class="border-bottom">
+		<h1 class="logoimg"><img src="images/logo.png" alt="Coffee Shop Logo" /></h1>
+	</div><!-- END data-role="header" -->
+
+	<!-- Main Content Area -->
+	<div data-role="content">
+		
+		<!-- Flexslider v2 Container/Slides -->
+		<div class="flex-container">
+			<div class="flexslider">
+			<ul class="slides">
+			<li><img src="images/img01.jpg" alt="" />
+			<p class="flex-caption"></p></li>
+			<li><img src="images/img2.jpg" alt="Cappucino anyone?" />
+			<p class="flex-caption">Cappucino anyone?</p></li>
+			<li><img src="images/img3.jpg" alt="" />
+			<p class="flex-caption"></p></li>
+			</ul>
+			</div><!-- END .flexslider -->
+		</div><!-- END .flex-container -->
+
+		<!--  Address -->
+		<div id="property-info">
+			<h3>1234 Espresso Lane<br />New York, NY  10014</h3>
+			
+			
+		</div><!-- END .property-info -->
+
+		<!-- Tap Buttons for "Call" - "Email" and "Send Text" -->
+		<div data-role="controlgroup" data-type="horizontal" id="centerthis">
+			<a href="tel:+18885551234" data-role="button" data-theme="b">Call Us</a>
+			<a href="mailto:info@info.com?subject=Customer%20Inquiry" data-role="button" data-theme="b">Email</a>
+			
+		</div><!-- END data-role="controlgroup" -->
+
+		<!-- Homepage Navigation -->
+		<ul data-role="listview" data-inset="true">
+			<li data-role="list-divider">Craving caffeine?</li>
+			<li><a href="#desc" data-transition="slide">Our Menu</a></li>
+			<li><a href="#mapdialog" data-rel="dialog" data-transition="pop">Find Us!</a></li>
+			<li><a href="#contact" data-rel="dialog" data-transition="pop">About Us</a></li>
+		</ul><!-- END ul data-role="listview" -->
+
+		<!-- Social Sharing Icons -->
+		<div class="socialicons">
+			<!-- Twitter Share -->
+			<a href="https://twitter.com/share?url=http://placekitten.com/&text=Join%20me%20for%20coffee" rel="external" data-ajax="false"><img src="images/twitter.png" alt="Tweet this on Twitter" /></a>
+			<!-- END Twitter Share -->
+			<!-- Facebook Share -->
+			<a href="https://facebook.com/sharer.php?u=http://placekitten.com/&t=Join%20me%20for%20coffee" rel="external" data-ajax="false"><img src="images/facebook.png" alt="Share on Facebook" /></a>
+			<!-- END Facebook Share -->
+			<!-- Google Plus Share -->
+			<a href="https://plus.google.com/share?url=http://placekitten.com/" rel="external" data-ajax="false"><img src="images/google+.png" alt="Add to Google Plus" /></a> 
+			<!-- END Google Plus Share -->
+		</div>
+	
+	</div><!-- END data-role="content" -->
+	
+	<!-- Footer Content (Homepage) -->
+	<div data-role="footer" class="border-top" id="home-footer">
+		<h4>&copy; 2014 Coffee Shop</h4>
+
+	</div><!-- END data-role="footer" -->
+
+ </div><!-- END data-role="page" (This concludes the Homepage content) -->
+
+ 
+ 
+ <!-- New Page = Property Description -->
+
+  <div data-role="page" class="innerpage" id="desc" data-add-back-btn="true">
+	
+	<!-- Header Content (Property Description page) -->
+	<div data-role="header" class="border-bottom" >
+		<h1>Our Menu</h1>
+	</div><!-- END data-role="header" -->
+
+	<div data-role="content">
+		
+		<!-- Photos of menu -->
+		<img class="property" src="images/img2.jpg" alt="Photo of 1234 Espresso Lane,&nbsp;New York, NY  10014" />
+		
+		<!-- Property Address And Details -->
+		<h2>What's your order?</h2>
+
+<!---   <div data-role="page" data-add-back-btn="true">
+
+
+		<!-- Main Content Area -->
+		<div data-role="content">
+
+		<!-- Menu Items -->
+		<ul data-role="listview" data-inset="true" class="menu-shadow">
+			
+			<!-- Menu Item One -->
+			<li>
+			  <img src="images/img1.png" /><span class="ui-li-aside">$3.95</span>
+			  <p class="food-item">Item Number One</p>
+			</li>
+			<!-- END Menu Item One -->
+
+			<!-- Menu Item Two -->
+			<li>
+			  <img src="images/img2.png" /><span class="ui-li-aside">$2.50</span>
+			  <p class="food-item">Item Number Two</p>
+			</li>
+			<!-- END Menu Item Two -->
+
+			<!-- Menu Item Three -->
+			<li>
+			  <img src="images/img3.png" /><span class="ui-li-aside">$2.00</span>
+			  <p class="food-item">Item Number Three</p>
+			</li>
+			<!-- END Menu Item Three -->
+
+			<!-- Menu Item Four -->
+			<li>
+			  <img src="images/img4.png" /><span class="ui-li-aside">$9.95</span>
+			  <p class="food-item">Item Number Four</p>
+			</li>
+			<!-- END Menu Item Four -->
+	
+		</ul><!-- END ul data-role="listview" (Menu) -->
+	
+		</div><!-- END data-role="content" -->
+
+<h3>Map</h3>
+
+		<!-- Google Map image -->
+		<div class="map-photo">
+		<img src="http://maps.google.com/maps/api/staticmap?center=40.723384, -74.001704&zoom=15&markers=40.723384, -74.001704&size=480x300&sensor=false" alt="Map of 1234 Espresso Lane,&nbsp;New York, NY  10014" />
+		</div><!-- END .map-photo -->
+
+		<!-- Get Directions Button (Maps.Google.com) -->
+		<a href="http://maps.google.com/?q=40.723384, -74.001704" rel="external" data-ajax="false" data-role="button" data-icon="info">Get Directions</a>
+
+		<!-- Tap Buttons for "Call" - "Email" and "Send Text" -->
+		<div data-role="controlgroup" data-type="horizontal" id="centerthis">
+			<a href="tel:+18885551234" data-role="button" data-theme="b">Call Us</a>
+			<a href="mailto:info@info.com?subject=Interested%20in%20one%20of%20your%20properties" data-role="button" data-theme="b">Email</a>
+			
+		</div><!-- END data-role="controlgroup" -->
+	
+	</div><!-- END data-role="content" -->
+	
+	<!-- Footer Content (Property Description page) -->
+	<div data-role="footer" class="border-top" id="page-footer">
+		<h4>&copy; 2014 Coffee Shop</h4>
+	</div><!-- END data-role="footer" -->
+
+ </div><!-- END data-role="page" -->
+
+
+
+  <!-- New Page = Map Dialog Box -->
+
+  <div data-role="page" id="mapdialog">
+	
+	<!-- Header Content (Map dialog page) -->
+	<div data-role="header" id="dialog-border-bottom">
+		<h1>Map</h1>
+	</div><!-- END data-role="header" -->
+
+	<div data-role="content">
+
+		<!-- Google Map image -->
+		<div class="map-photo">
+		<img src="http://maps.google.com/maps/api/staticmap?center=40.723384, -74.001704&zoom=15&markers=40.723384, -74.001704&size=480x300&sensor=false" alt="Map of 1234 Espresso Lane,&nbsp;New York, NY  10014" />
+		</div><!-- END .map-photo -->
+
+		<!-- Get Directions Button (Maps.Google.com) -->
+		<a href="http://maps.google.com/?q=40.723384, -74.001704" rel="external" data-ajax="false" data-role="button" data-icon="info">Get Directions</a>
+	
+	</div><!-- END data-role="content" -->
+	
+	<!-- Footer Content (Map dialog page) -->
+	<div data-role="footer" class="border-top" id="page-footer">
+		<h4>&copy; 2014 Coffee Shop</h4>
+	</div><!-- END data-role="footer" -->
+
+ </div><!-- END data-role="page" -->
+
+
+
+   <!-- New Page = Contact Info Dialog Box -->
+
+  <div data-role="page" id="contact">
+	
+	<!-- Header Content (Contact Info dialog page) -->
+	<div data-role="header" id="dialog-border-bottom">
+		<h1>About Us</h1>
+	</div><!-- END data-role="header" -->
+
+	<div data-role="content" class="innerpage">
+
+		<!-- Contact -->
+		<div class="portrait-photo">
+		<img src="images/img5.png" alt="Contact Us" />
+		</div><!-- END .portrait-photo -->
+
+		<h2>Established in 1925</h2>
+        
+        <p>The cafe has been our family business for many years. We never sleep!</p>
+        
+		<h3>We're located at</h3>
+        1234 Espresso Lane<br/>
+        New York, NY 10014<br/>
+		(800) 555-1212<br />
+		info@info.com</p>
+	
+	</div><!-- END data-role="content" -->
+	
+	<!-- Footer Content (Map dialog page) -->
+	<div data-role="footer" class="border-top" id="page-footer">
+		<h4>&copy; 2014 Coffee Shop</h4>
+	</div><!-- END data-role="footer" -->
+
+ </div><!-- END data-role="page" -->
+  
+ </body>
+
+</html>
